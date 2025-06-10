@@ -30,9 +30,15 @@ INPUT_DIM=45
 
 NUM_CLASSES=6
   
-TRAINING_DATA="train_regroupe.csv"
-TESTING_DATA="test_regroupe.csv"
+TRAINING_DATA="train_botiot.csv"
+TESTING_DATA="test_botiot.csv"
 
 
-MULTICLASS_TARGET_COL="label_grouped"
+TRAINING_DATA="train.csv"
+TESTING_DATA="test.csv"
+
+
+MULTICLASS_TARGET_COL="category"
+ONE_HOT_ENCODING_LIST=['proto']
+DELETE_LIST=["subcategory","saddr" ,"daddr"]
 
