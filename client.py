@@ -1,6 +1,4 @@
 import os
-
-# This guide can only be run with the TensorFlow backend.
 os.environ["KERAS_BACKEND"] = "tensorflow"
 import flwr as fl
 import numpy as np
